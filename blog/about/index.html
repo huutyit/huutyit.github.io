@@ -20,7 +20,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" property="og:description" content="This is meta description.">
+  <meta name="description" property="og:description" content="Nguyen Huu Ty">
   <meta name="image" property="og:image" content="/">
   <meta name="author" content="Sam Robbins">
   <meta name="generator" content="Hugo 0.74.3" />
@@ -36,8 +36,7 @@
   
   <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
 
-  <link rel="alternate" type="application/rss+xml" href="https://huutyit.github.io/about/index.xml" title="Sam Robbins" />
-<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
 
   <!--Favicon-->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -46,7 +45,7 @@
   <link rel="manifest" href="/site.webmanifest">
 
 </head>
-<body class="about">
+<body class="blog">
     <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
     <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
         <div class="uk-navbar-right">
@@ -64,18 +63,18 @@
                 
                 
                 
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 <li class="uk-active"><a style="font-size: 18px; text-transform:none"
-                        href="/about">About</a></li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <li><a style="font-size: 18px; text-transform: none" href="/blog">Blog</a></li>
+                        href="/blog">Blog</a></li>
                 
                 
                 
@@ -122,7 +121,7 @@
             
             
             
-            <li class="uk-active"><a style="font-size: 18px" href="/about">About</a></li>
+            <li><a style="font-size: 18px" href="/about">About</a></li>
             
             
             
@@ -132,7 +131,7 @@
             
             
             
-            <li><a style="font-size: 18px" href="/blog">Blog</a></li>
+            <li class="uk-active"><a style="font-size: 18px" href="/blog">Blog</a></li>
             
             
             
@@ -163,24 +162,100 @@
 
 
 
-<section class="uk-margin-large-bottom">
-        <h1 class="uk-heading-large uk-text-center">About</h1>
-</section>
+<style>
+  p {
+    margin: 0
+  }
+
+  .people-wrap {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+
+  .people-image {
+    display: block;
+    border-radius: 50%;
+     
+  }
+
+  .people {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  p { margin-bottom: 1em; }
+
+  body p:last-child { margin-bottom: 0em; }
+
+  img.skills{
+    height: 80px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .content img{max-width:60vw; max-height:60vh}
+
+  .content img{
+      max-width:60vw;
+      max-height:60vh
+  }
+  }
+  .content{
+      width: 90vw;
+      max-width: 1200px
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+</style>
 
 
-<!-- About -->
+<section>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+    <h1 class="uk-text-center uk-heading-medium">About Author</h1>
+    <p class="uk-text-center uk-text-lead">Nguyen Huu Ty</p>
+    <p class="uk-text-center">Published on Dec 31, 2019</p>
+    <p class="uk-text-center">Reading time: 0 minutes.</p>
+    
 
-<link rel="stylesheet" href="/css/about.min.css">
+    <hr class="full-width">
+    
 
-
-<section class="uk-margin-large-bottom">
-  <div class="uk-container">
-    <div class="uk-flex-center" uk-grid>
-      <div class="uk-width-1-2 uk-width-1-3@s">
-        <img src="https://huutyit.github.io/images/about/profile.jpg" alt="author">
-      </div>
-      <div class="uk-width-expand@m">
-        <p>Full Stack Software Engineer at Axon Active - Agile Offshore Software Development Company</p>
+    <div class="content">
+      <p>Full Stack Software Engineer at Axon Active - Agile Offshore Software Development Company</p>
 <ul>
 <li>A homepage with more social links, and description of my skills</li>
 <li>Two years experienced in software development with Java, Struts framework</li>
@@ -190,14 +265,10 @@
 <li>Cloud environment: AWS and Google Cloud Platform</li>
 </ul>
 
-      </div>
     </div>
-
   </div>
-
+  </div>
 </section>
-
-
 
 
 
